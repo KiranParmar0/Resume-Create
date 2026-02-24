@@ -10,7 +10,7 @@
     "linkedinLabel": "linkedin.com/in/kiran-parmar-b128051a/",
     "location": "Pune"
   },
-  "summary": "UI Developer with 4+ years of hands-on experience building scalable, high-performance web applications across HealthCare, Casino Gaming, and B2B Marketing Automation domains. Proven expertise in Angular, React, TypeScript, and RxJS — delivering enterprise-grade solutions with modular architecture, RBAC, REST API integration, and responsive design. Adept at collaborating in Agile teams, mentoring junior developers, and consistently optimizing application performance across complex, cross-domain projects.",
+  "summary": "UI Developer with 4 years of hands-on experience building scalable, high-performance web applications across HealthCare, Casino Gaming, and B2B Marketing Automation domains. Proven expertise in Angular, React, TypeScript, and RxJS — delivering enterprise-grade solutions with modular architecture, RBAC, REST API integration, and responsive design. Adept at collaborating in Agile teams, mentoring junior developers, and consistently optimizing application performance across complex, cross-domain projects.",
   "experience": [
     {
       "title": "UI Developer",
@@ -129,7 +129,7 @@
     }
   ],
   "stats": [
-    { "icon": "fa-solid fa-calendar-check", "value": "4+",  "label": "Years Exp." },
+    { "icon": "fa-solid fa-calendar-check", "value": "4",  "label": "Years Exp." },
     { "icon": "fa-solid fa-globe",           "value": "5",   "label": "Domains" },
     { "icon": "fa-solid fa-diagram-project", "value": "10+", "label": "Projects" },
     { "icon": "fa-solid fa-layer-group",     "value": "20+", "label": "Technologies" }
@@ -174,15 +174,15 @@
       ]
     },
     {
-      "title": "Landing Pages & Webinar Platform",
+      "title": "Landing Pages, Proof of Concept &  Webinar Platform",
       "company": "Digital Factory 24",
       "domain": "Digital Marketing",
       "role": "UI Developer",
       "period": "11/2024 – 02/2026",
-      "technologies": "HTML5, CSS3, JavaScript, React, Bootstrap, Beefree",
-      "description": "40+ enterprise landing pages & in-house live webinar platform for clients including Google, F5, and Splunk.",
+      "technologies": "HTML5, CSS3, JavaScript, React, Bootstrap, Beefree, Unbounce",
+      "description": "40+ enterprise landing pages & in-house live webinar platform for clients including Google, F5, Splunk, Lenovo, Cofece,HP, Databricks, Adobe, RedHat, Fortinet, Proofpoint and more.",
       "bullets": [
-        "Built responsive, brand-aligned LPs optimized for email traffic and lead conversion using Beefree templates",
+        "Built responsive, brand-aligned LPs and POCoptimized for email traffic and lead conversion using Beefree and Unbounce templates",
         "Integrated LP forms with CRMs for real-time lead capture, UTM tracking, and campaign analytics",
         "Developed full webinar journey for F5: registration, confirmation, live streaming, speaker & agenda modules"
       ]
