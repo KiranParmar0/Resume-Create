@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiran Fulchand Parmar – Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── TOOLBAR (hidden on print) ── -->
+  <div class="download-bar no-print">
+    <button class="btn-theme-toggle" id="themeToggle" title="Toggle dark/light mode">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+    <button class="btn-download" onclick="downloadPDF()">
+      <i class="fa-solid fa-file-arrow-down"></i> Download / Print PDF
+    </button>
+  </div>
+
+  <div class="resume-wrapper" id="resume">
+
+    <!-- ── GRADIENT ACCENT BAR ── -->
+    <div class="accent-bar"></div>
+
+    <!-- ─────────── HEADER ─────────── -->
+    <header class="resume-header">
+
+      <!-- Avatar -->
+      
+
+      <!-- Name + title + domain tags -->
+      <div class="header-name-block">
+        <h1 id="fullName"></h1>
+        <p id="jobTitle" class="job-title"></p>
+        <div id="industryTags" class="industry-tags"></div>
+         <div class="header-contact" id="contactInfo"></div>
+      </div>
+
+      <!-- Contact info -->
+
+
+    </header>
+
+    <!-- ── STATS BAR ── -->
+    <div class="stats-bar" id="statsBar"></div>
+
+    <!-- ─────────── BODY ─────────── -->
+    <div class="resume-body">
+
+      <!-- ── LEFT COLUMN ── -->
+      <div class="col-left">
+
+        <!-- SUMMARY -->
+        <section class="section" id="summarySection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-user section-icon"></i> SUMMARY
+          </h2>
+          <p id="summaryText" class="summary-text"></p>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experienceSection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-briefcase section-icon"></i> EXPERIENCE
+          </h2>
+          <div id="experienceList" class="experience-timeline"></div>
+        </section>
+
+      </div><!-- /col-left -->
+
+      <!-- ── RIGHT COLUMN ── -->
+      <div class="col-right">
+
+        <!-- SKILL PROFICIENCY BARS -->
+        <section class="section" id="proficiencySection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-chart-bar section-icon"></i> SKILL PROFICIENCY
+          </h2>
+          <div id="skillBars" class="skill-bars"></div>
+        </section>
+
+        <!-- STRENGTHS -->
+        <section class="section" id="strengthsSection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-bolt section-icon"></i> STRENGTHS
+          </h2>
+          <div id="strengthsList"></div>
+        </section>
+
+        <!-- KEY ACHIEVEMENTS -->
+        <section class="section" id="achievementsSection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-trophy section-icon"></i> KEY ACHIEVEMENTS
+          </h2>
+          <div id="achievementsList"></div>
+        </section>
+
+        <!-- SKILLS TAGS -->
+        <section class="section" id="skillsSection">
+          <p class="skills-group-label">
+            <i class="fa-solid fa-code"></i>&nbsp;KEY SKILLS
+          </p>
+          <div id="keySkillsTags" class="skills-tags"></div>
+          <p class="skills-group-label" style="margin-top:14px">
+            <i class="fa-solid fa-wrench"></i>&nbsp;TOOLS
+          </p>
+          <div id="toolsTags" class="skills-tags"></div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section" id="educationSection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-graduation-cap section-icon"></i> EDUCATION
+          </h2>
+          <div id="educationList"></div>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section class="section" id="languagesSection">
+          <h2 class="section-title">
+            <i class="fa-solid fa-globe section-icon"></i> LANGUAGES
+          </h2>
+          <div id="languageGrid" class="language-grid"></div>
+        </section>
+
+      </div><!-- /col-right -->
+
+    </div><!-- /resume-body -->
+
+    <!-- ─────────── PROJECTS (full width) ─────────── -->
+    <div class="resume-projects-section">
+      <h2 class="section-title projects-title">
+        <i class="fa-solid fa-diagram-project section-icon"></i> PROJECTS
+      </h2>
+      <div id="projectsList" class="projects-grid"></div>
+    </div>
+
+  </div><!-- /resume-wrapper -->
+
+  <script src="app.js"></script>
+</body>
+</html>
