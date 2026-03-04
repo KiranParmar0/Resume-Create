@@ -1,0 +1,28 @@
+{
+  "name": "job-application-emailer",
+  "version": "1.0.0",
+  "description": "Automated job application email sender using Excel file and nodemailer",
+  "main": "send-emails.js",
+  "scripts": {
+    "start": "node send-emails.js",
+    "dev": "node send-emails.js"
+  },
+  "keywords": [
+    "email",
+    "automation",
+    "job",
+    "application",
+    "nodemailer",
+    "xlsx"
+  ],
+  "author": "Kiran Parmar",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

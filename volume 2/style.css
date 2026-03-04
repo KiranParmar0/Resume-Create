@@ -393,7 +393,7 @@ body {
 }
 
 .exp-bullets li::before {
-  content: 'â–¸';
+  content: '•';
   position: absolute;
   left: 0;
   color: var(--blue);
@@ -796,7 +796,7 @@ body {
 }
 
 .kf-bullets li::before {
-  content: 'â–¸';
+  content: '•';
   position: absolute;
   left: 0;
   color: var(--blue);
@@ -1070,6 +1070,11 @@ body {
   .ach-icon.diamond { color: #3b82f6 !important; }
   .ach-text h4 { font-size: 8.5pt !important; }
   .ach-text p  { font-size: 7.8pt !important; }
+
+  #skillsSection {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
 
   .skills-group-label  { font-size: 6.5pt !important; }
   .skills-tags         { gap: 5px 6px !important; }
