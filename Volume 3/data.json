@@ -1,0 +1,379 @@
+{
+  "personal": {
+    "name": "KIRAN FULCHAND PARMAR",
+    "title": "Angular Developer",
+    "photo": "photo.jpg",
+    "industries": [
+      "Casino Gaming | ",
+      "HealthCare |",
+      "B2B Marketing Automation |",
+      "E-Learning |",
+      "LP & POC"
+    ],
+    "phone": "7796331393",
+    "email": "parmarkiran1115@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kiran-parmar-b128051a/",
+    "linkedinLabel": "linkedin.com/in/kiran-parmar-b128051a/",
+    "location": "Pune"
+  },
+  "summary": "UI Developer with 4 years of hands-on experience building scalable, high-performance web applications across HealthCare, Casino Gaming, and B2B Marketing Automation domains. Proven expertise in Angular, React, TypeScript, and RxJS  delivering enterprise-grade solutions with modular architecture, RBAC, REST API integration, and responsive design. Adept at collaborating in Agile teams, mentoring junior developers, and consistently optimizing application performance across complex, cross-domain projects.",
+  "experience": [
+    {
+      "title": "UI Developer",
+      "company": "Digital Factory 24",
+      "period": "07/2025 – 02/2026",
+      "location": "Marigold, Kalyani Nagar, Pune",
+      "description": "Developed <strong>MassEngage Lead Accelerator</strong> B2B marketing automation platform",
+      "bullets": [
+        "Led frontend transformation of a scalable B2B SaaS lead generation platform using Angular 13 with feature-based modular architecture, lazy-loaded feature modules, and reusable UI components",
+        "Designed a dynamic campaign workflow builder with drag-and-drop graphical visualization, conditional branching, and automated lead scoring rule engine",
+        "Executed Role-Based Access Control (RBAC) with Angular route guards, CanActivate/CanLoad guards, custom permission directives, and role-driven UI element visibility",
+        "Built automated lead lifecycle engine: real-time assignment logic, email notifications with Excel attachment reports, and intelligent redistribution for rejected or uncontacted leads",
+        "Enhanced configurable lead export (XLSX/PDF) and analytics dashboards displaying funnel metrics, conversion rates, agent performance, and campaign ROI trends",
+        "Architected reusable component library (smart tables, reactive forms, stepper modals, chart widgets) using Angular Material, reducing feature development time across modules",
+
+        "Utilized RxJS operators (switchMap, debounceTime, combineLatest, takeUntil) for efficient async streams, eliminating race conditions and memory leaks",
+        "Optimized bundle output via AOT compilation, tree shaking, and Webpack bundle analysis  reducing initial load time by ~30%"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Prognosticsoft Solutions Pvt Ltd",
+      "period": "11/2024 – 07/2025",
+      "location": "Sangavi Aundh, Pune",
+      "description": "Enhanced <strong>Healthcare Trial Accelerator Platform</strong> for streamlining clinical trial lifecycle management",
+      "bullets": [
+        "Led Angular 14 frontend development for a multi-module clinical trial SaaS platform, establishing feature-based architecture with shared libraries and clean module boundaries",
+        "Designed and created 30+ reusable Angular components (data tables, multi-step wizards, dynamic forms, patient cards, timeline trackers) and injectable shared services for cross-module use",
+        "Collaborated closely with product owners and backend teams to define API contracts, data models, and integration workflows for 20+ RESTful endpoints",
+        "Applied NgRx store with typed actions, reducers, selectors, and effects for centralized state management; employed OnPush change detection and lazy loading to optimize performance",
+        "Enforced granular RBAC (Admin, Investigator, Monitor, Coordinator) via route guards and structural directives; incorporated JWT-based auth with auto token refresh via HTTP interceptors",
+        "Executed audit trail logging on all data mutations to meet 21 CFR Part 11 and HIPAA electronic records compliance requirements",
+        "Worked with QA and DevOps teams on CI/CD pipeline setup (Azure DevOps), test automation with Jasmine/Karma, and streamlined deployment and bug tracking via Jira"
+      ]
+    },
+    {
+      "title": "Sr. Software Developer",
+      "company": "Zensar Technologies",
+      "period": "05/2024 – 11/2024",
+      "location": "Kharadi, Pune",
+      "description": "Created dynamic and engaging online slot games for a global casino gaming platform (<strong>MG Asia</strong>)",
+      "bullets": [
+        "Expanded immersive slot game UIs using PixiJS WebGL renderer and HTML5 Canvas API, achieving consistent 60fps gameplay across desktop, tablet, and mobile browsers",
+        "Designed fluid reel spin animations with custom easing curves, motion blur during spin, landing bounce physics, and win-line highlight sequences using PixiJS ticker and tweening library",
+        "Executed configurable payline engines supporting 5, 10, 20, and 243-ways configurations with dynamic win calculation and visual payline overlay rendering",
+        "Built 3-reel and 5-reel game mechanics including wild substitutions, scatter detection, free spin triggers, multiplier stacking, and cascading reel (avalanche) mechanics",
+        "Created and merged a progressive jackpot meter with real-time WebSocket-based increment feeds and milestone-triggered jackpot win celebration animations",
+        "Constructed bonus round mini-games (pick-a-prize, wheel spin, free spins mode) driven by a finite state machine for predictable, testable game state transitions",
+        "Built a real-time leaderboard system and tiered player rewards module with achievement badges, XP level tracking, and loyalty milestone notifications",
+        "Streamlined asset pipeline using texture atlases, compressed sprite sheets, and progressive lazy loading, reducing initial game load time by 35%"
+      ]
+    },
+    {
+      "title": "UI Developer",
+      "company": "Digital Crown IT Systems LLP",
+      "period": "02/2024 – 05/2024",
+      "location": "Kothrud, Pune",
+      "description": "Improved <strong>MSettu</strong> and <strong>Nahikalii</strong> platforms for Mahindra & Mahindra managing various business processes",
+      "bullets": [
+        "Architected MSettu using Angular 16 standalone components to streamline Mahindra's financial workflows, supply chain operations, and dealer performance reporting pipelines",
+        "Applied role-segregated dashboards (Finance, Operations, Admin) with configurable widget layouts and permission-controlled data visibility per user role",
+        "Built Nahikalii as a fully responsive React.js application using SASS modules for scoped styling and React hooks (useState, useEffect, useContext, useReducer) for state management",
+        "Incorporated PixiJS canvas scenes and D3.js chart types (bar, line, donut, heatmap) to render real-time operational KPIs and business intelligence metrics interactively",
+        "Connected 10+ REST APIs using Axios with request interceptors for token auth, deduplication, and standardized error boundary handling across both platforms",
+        "Enhanced React performance via React.memo, useMemo, useCallback memoization, react-window virtualized lists, and lazy-loaded route-based code splitting",
+        "Delivered both platforms within a 3-month Agile engagement using bi-weekly sprints, Jira task tracking, and GitLab merge request workflows with mandatory code review gates"
+      ]
+    },
+    {
+      "title": "SME",
+      "company": "UpThink Experts Pvt. Ltd",
+      "period": "09/2021 – 02/2023",
+      "location": "Kothrud, Pune",
+      "description": "Expanded a comprehensive <strong>Digital Learning</strong> platform for enhanced user experiences",
+      "bullets": [
+        "Contributed as SME and frontend developer to a full-scale LMS platform serving 5000+ learners across academic and professional corporate training segments",
+        "Merged multi-modal content delivery: HLS video streaming with playback controls, interactive quizzes, graded assignments, downloadable e-books, and live session scheduling with calendar sync",
+        "Designed a personalized learning path recommendation engine suggesting courses and resources based on user role, skill gap analysis, progress history, and behavioral engagement signals",
+        "Created a module-level and course-level assessment engine supporting MCQ, fill-in-the-blank, and descriptive formats with configurable time limits, attempt restrictions, and automated scoring",
+        "Created instructor and learner dashboards with real-time progress rings, streak indicators, XP-based gamification, completion certificate generation, and deadline alerts",
+        "Blended a data analytics pipeline tracking video watch duration, quiz scores, module completion rates, and session frequency surfaced in instructor reporting dashboards",
+        "Collaborated with subject matter experts to digitize and structure course content into intuitive LMS modules with consistent UX patterns and accessibility compliance"
+      ]
+    }
+  ],
+  "strengths": [
+    {
+      "icon": "users",
+      "title": "Team Collaboration",
+      "description": "Capable of quick learning and delivering effective solutions in a team setting, with daily stand-ups, peer reviews, and cross-functional Agile collaboration"
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Problem Solving",
+      "description": "Strong analytical approach to breaking down complex UI challenges  from RNG-based game mechanics to HIPAA-compliant healthcare workflows"
+    },
+    {
+      "icon": "shuffle",
+      "title": "Adaptability",
+      "description": "Quickly ramped up across diverse domains  healthcare, casino gaming, e-learning, e-publishing, and B2B marketing  adopting new tech stacks with each project"
+    },
+    {
+      "icon": "user-graduate",
+      "title": "Mentoring & Leadership",
+      "description": "Conducted code reviews, mentored junior developers, and ensured adherence to coding standards across multiple teams"
+    },
+    {
+      "icon": "gauge-high",
+      "title": "Performance Optimisation",
+      "description": "Applied lazy loading, RxJS Observables, modular architecture, and efficient API state handling to build fast, scalable Angular applications"
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "star",
+      "title": "Healthcare Trial Accelerator Project",
+      "description": "Successfully developed a comprehensive healthcare trial platform that streamlined clinical trial management"
+    },
+    {
+      "icon": "diamond",
+      "title": "MassEngage Lead Accelerator",
+      "description": "Engineered a scalable B2B SaaS lead generation platform with Angular 13, implementing RBAC, automated lead lifecycle management, and analytics dashboards  reducing manual lead processing effort and accelerating campaign delivery for enterprise clients."
+    }
+  ],
+  "stats": [
+    {
+      "icon": "fa-solid fa-calendar-check",
+      "value": "4",
+      "label": "Years Exp."
+    },
+    { "icon": "fa-solid fa-globe", "value": "5", "label": "Domains" },
+    {
+      "icon": "fa-solid fa-diagram-project",
+      "value": "10+",
+      "label": "Projects"
+    },
+    {
+      "icon": "fa-solid fa-layer-group",
+      "value": "20+",
+      "label": "Technologies"
+    }
+  ],
+  "skills": {
+    "proficiency": [
+      { "name": "Angular", "pct": 92, "color": "#e02d2d" },
+      { "name": "TypeScript", "pct": 88, "color": "#3178C6" },
+      { "name": "JavaScript", "pct": 90, "color": "#f0db4f" },
+      { "name": "React.js", "pct": 78, "color": "#61DAFB" },
+      { "name": "RxJS", "pct": 83, "color": "#B7178C" },
+      { "name": "HTML5/CSS3", "pct": 95, "color": "#e44d26" },
+      { "name": "PixiJS/Canvas", "pct": 72, "color": "#ff6b2b" },
+      { "name": "D3.js", "pct": 65, "color": "#f98020" }
+    ],
+    "keySkills": [
+      "Angular",
+      "Javascript",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS3",
+      "Firebase",
+      "Bootstrap",
+      "Angular Material",
+      "Material Design",
+      "MEAN/MERN",
+      "Canvas",
+      "Tailwind CSS",
+      "Next.js",
+      "Ionic",
+      "Twilio",
+      "jQuery",
+      "React UI Tools",
+      "Ant Design",
+      "RxJS",
+      "SASS",
+      "D3.js",
+      "NgRx",
+      "PixiJS",
+      "REST APIs",
+      "GraphQL",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Azure",
+      "Webpack",
+      "ES6+",
+      "PWA",
+      "Micro-frontends",
+      "Lazy Loading",
+      "RBAC",
+      "Responsive Design",
+      "WCAG / Accessibility",
+      "HIPAA Compliance",
+      "Jasmine / Karma",
+      "CI/CD",
+      "Agile / Scrum",
+      "Figma",
+      "Storybook",
+      "JSON",
+      "AJAX"
+    ],
+    "tools": [
+      "Git",
+      "GitLab",
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps",
+      "Jira",
+      "Confluence",
+      "Trello",
+      "Visual Studio Code",
+      "Visual Studio",
+      "GitHub Copilot",
+      "ChatGPT",
+      "Postman",
+      "Swagger / OpenAPI",
+      "npm",
+      "Yarn",
+      "Angular CLI",
+      "Webpack",
+      "Vite",
+      "Chrome DevTools",
+      "SonarQube",
+      "Figma",
+      "Adobe XD",
+      "Zeplin",
+      "Beefree",
+      "Unbounce",
+      "Firebase",
+      "MS Teams"
+    ]
+  },
+  "projects": [
+    {
+      "title": "MassEngage Lead Accelerator",
+      "company": "Digital Factory 24",
+      "domain": "B2B Marketing Automation",
+      "role": "UI Developer",
+      "period": "06/2025 - 02/2026",
+      "technologies": "Angular 13, TypeScript, RxJS, Angular Material, Bootstrap, Azure",
+      "description": "Scalable B2B SaaS platform for automated lead generation and marketing campaign management.",
+      "bullets": [
+        "Led frontend transformation of a scalable B2B SaaS lead generation platform using Angular 13 with modular architecture",
+        "Designed a dynamic campaign workflow builder with graphical visualization and automated lead scoring",
+        "Executed Role-Based Access Control (RBAC) using route guards and permission-driven UI rendering",
+        "Built automated lead lifecycle management: real-time assignment, email notifications with Excel reports, and intelligent redistribution logic for rejected leads",
+        "Enhanced lead export features (XLSX/PDF) and analytics dashboards for campaign performance tracking",
+        "Incorporated REST APIs for real-time data sync and built reusable Angular components to accelerate delivery",
+        "Streamlined performance with lazy-loaded modules, RxJS Observables, and efficient API state handling"
+      ]
+    },
+    {
+      "title": "Landing Pages, Proof of Concept & Webinar Platform",
+      "company": "Digital Factory 24",
+      "domain": "Digital Marketing",
+      "role": "UI Developer",
+      "period": "11/2024 - 02/2026",
+      "technologies": "HTML5, CSS3, JavaScript, React, Bootstrap, Beefree, Unbounce",
+      "description": "40+ enterprise landing pages & in-house live webinar platform for clients including Google, F5, Splunk, Lenovo, Cofece, HP, Databricks, Adobe, RedHat, Fortinet, Proofpoint and more.",
+      "bullets": [
+        "Designed and delivered 40+ responsive, brand-aligned enterprise landing pages for global clients across diverse industries",
+        "Built POCs using Beefree and Unbounce templates optimized for email traffic, lead conversion, and A/B testing",
+        "Incorporated landing page forms with CRMs (Salesforce, HubSpot) for real-time lead capture and UTM-based campaign tracking",
+        "Created a full end-to-end webinar journey for F5: registration, confirmation emails, live streaming, speaker profiles, and agenda modules",
+        "Applied responsive layouts ensuring cross-browser and cross-device compatibility across all deliverables",
+        "Collaborated with marketing and design teams to maintain brand consistency and optimize page load performance"
+      ]
+    },
+    {
+      "title": "Healthcare Trial Accelerator",
+      "company": "Prognosticsoft Solutions Pvt Ltd",
+      "domain": "HealthCare",
+      "role": "Software Developer",
+      "period": "11/2024 - 06/2025",
+      "technologies": "Angular 14, TypeScript, RxJS, Angular Material, REST APIs, Azure",
+      "description": "End-to-end clinical trial lifecycle management platform meeting HIPAA and WCAG compliance standards.",
+      "bullets": [
+        "Led frontend development using Angular 14 ensuring scalable, maintainable architecture with feature-based module structure",
+        "Designed and created reusable Angular components and shared services aligned with Angular best practices",
+        "Built real-time monitoring dashboards for clinical trial milestones, patient enrollment, and site performance tracking",
+        "Applied lazy loading, NgRx state management, and OnPush change detection to optimize app performance",
+        "Integrated REST APIs with role-based secure authentication and granular access controls per user type",
+        "Conducted code reviews and mentored junior developers to maintain consistent coding standards across the team",
+        "Ensured full HIPAA compliance, audit trail logging, and WCAG 2.1 accessibility standards across all modules"
+      ]
+    },
+    {
+      "title": "MG Asia – Online Slot Game Platform",
+      "company": "Zensar Technologies",
+      "domain": "Casino Gaming",
+      "role": "Sr. Software Developer",
+      "period": "05/2024 - 11/2024",
+      "technologies": "HTML5, JavaScript, TypeScript, PixiJS, Canvas, Bootstrap, Okta",
+      "description": "Immersive cross-platform casino slot game platform with real-time game mechanics and player rewards.",
+      "bullets": [
+        "Developed user-friendly slot game UIs optimized for cross-platform play across desktop, tablet, and mobile devices",
+        "Integrated dynamic reel animations, symbol transitions, and bonus visual effects using PixiJS and HTML5 Canvas",
+        "Implemented multiple payline configurations, 3-reel/5-reel mechanics, wilds, scatters, free spins, and multipliers",
+        "Engineered progressive jackpot mechanics and bonus round triggers with smooth state transitions",
+        "Built real-time leaderboards and a player rewards system featuring in-game achievements and loyalty tracking",
+        "Ensured RNG-based fair play compliance and performance optimization for smooth, lag-free gameplay",
+        "Contributed to analytics integration for player behavior tracking and game performance insights"
+      ]
+    },
+    {
+      "title": "MSettu & Nahikalii – M&M Platforms",
+      "company": "Digital Crown IT Systems LLP",
+      "domain": "Automotive & Industrial",
+      "role": "UI Developer",
+      "period": "02/2024 – 05/2024",
+      "technologies": "Angular 16, React.js, TypeScript, D3.js, PixiJS, SASS, RxJS, REST APIs",
+      "description": "Dual platforms for Mahindra & Mahindra: financial operations management (MSettu) and interactive business UI (Nahikalii).",
+      "bullets": [
+        "Designed MSettu  a digital platform to streamline financial operations, supply chain management, and real-time reporting for Mahindra & Mahindra",
+        "Created Nahikalii as a fully responsive, cross-device UI using React.js with SASS for custom styling and PixiJS for data visualizations",
+        "Incorporated REST APIs for real-time data updates and optimized app performance through lazy loading and code splitting",
+        "Applied D3.js for interactive charts and graphs to visualize business metrics and operational KPIs",
+        "Ensured timely delivery through Agile sprints with Git-based version control and daily stand-up collaboration"
+      ]
+    },
+    {
+      "title": "Digital Learning Platform",
+      "company": "UpThink Experts Pvt. Ltd",
+      "domain": "E-Learning",
+      "role": "SME",
+      "period": "09/2021 – 02/2023",
+      "technologies": "HTML5, CSS3, JavaScript, Angular, REST APIs, Data Analytics, LMS",
+      "description": "Comprehensive digital learning platform supporting multi-modal content delivery, personalized learning paths, and automated assessments.",
+      "bullets": [
+        "Played a pivotal role in the development of a comprehensive digital learning platform serving diverse learner segments",
+        "Integrated multi-modal content: video lectures, quizzes, assignments, and e-books to support varied learning styles",
+        "Implemented personalized learning path algorithms that recommend tailored resources based on individual user progress and behavior",
+        "Created an automated assessment and grading system providing real-time feedback and streamlined evaluation workflows",
+        "Built an interactive course progress tracker with visual dashboards for both learners and instructors",
+        "Integrated data analytics to monitor user engagement, course completion rates, and overall platform effectiveness",
+        "Collaborated with subject matter experts to structure and digitize course content into an intuitive LMS interface"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science",
+      "institution": "RB Narayanrao Borawake College",
+      "period": "06/2014 – 04/2016",
+      "location": "Shrirampur"
+    },
+    {
+      "degree": "Bachelor of Science",
+      "institution": "Sir Parashurambhau College",
+      "period": "06/2009 – 10/2013",
+      "location": "Pune"
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "Native", "dots": 5 },
+    { "name": "Marathi", "level": "Native", "dots": 5 },
+    { "name": "Hindi", "level": "Proficient", "dots": 4 },
+    { "name": "Marwari", "level": "Advanced", "dots": 3 }
+  ]
+}
