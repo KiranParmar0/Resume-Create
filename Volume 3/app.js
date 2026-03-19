@@ -46,7 +46,7 @@ function buildResume(d) {
   buildSummary(d.summary);
   buildExperience(d.experience);
   buildEducation(d.education);
-  buildLanguages(d.languages);
+  // buildLanguages(d.languages);
   buildStrengths(d.strengths);
   buildAchievements(d.achievements);
   buildSkills(d.skills);

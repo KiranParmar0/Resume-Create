@@ -82,9 +82,9 @@ Edit these variables in `send-emails.js` (around lines 18-24):
 
 ```javascript
 const CONFIG = {
-  senderEmail: "parmarkiran1115@gmail.com", // Your email
+  senderEmail: "kiranparmar7796@gmail.com", // Your email
   applicantName: "Kiran Parmar", // Your name
-  applicantEmail: "parmarkiran1115@gmail.com", // Your email
+  applicantEmail: "kiranparmar7796@gmail.com", // Your email
   applicantPhone: "7796331393", // Your phone
   jobPosition: "Frontend Developer / Angular Developer Role", // Job title
   yearsExperience: 4, // Your years of experience
@@ -182,7 +182,7 @@ Thank you for your time and consideration.
 
 Best Regards,
 Kiran Parmar
-Email: parmarkiran1115@gmail.com
+Email: kiranparmar7796@gmail.com
 Phone: 7796331393
 ```
 
@@ -242,7 +242,7 @@ Phone: 7796331393
 For production, create a `.env` file:
 
 ```
-SENDER_EMAIL=parmarkiran1115@gmail.com
+SENDER_EMAIL=kiranparmar7796@gmail.com
 SENDER_PASSWORD=xxxx xxxx xxxx xxxx
 ```
 
@@ -304,5 +304,5 @@ MIT License - Free to use and modify
 ## Author
 
 Kiran Parmar
-Email: parmarkiran1115@gmail.com
+Email: kiranparmar7796@gmail.com
 Phone: 7796331393

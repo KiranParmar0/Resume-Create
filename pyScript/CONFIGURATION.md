@@ -8,13 +8,13 @@ All configuration is in the `CONFIG` object at the top of `send-emails.js` (arou
 
 ```javascript
 const CONFIG = {
-  senderEmail: "parmarkiran1115@gmail.com",
+  senderEmail: "kiranparmar7796@gmail.com",
   senderPassword: "your_app_password_here",
   excelFile: "Compan HR contact.xlsx",
   resumeFile: "Kiran_Parmar_Resume.pdf",
   emailDelay: 5000,
   applicantName: "Kiran Parmar",
-  applicantEmail: "parmarkiran1115@gmail.com",
+  applicantEmail: "kiranparmar7796@gmail.com",
   applicantPhone: "7796331393",
   jobPosition: "Frontend Developer / Angular Developer Role",
   yearsExperience: 4,
@@ -233,10 +233,10 @@ Copy `.env.example` to `.env`:
 Copy-Item ".env.example" ".env"
 
 # Or manually create .env with:
-SENDER_EMAIL=parmarkiran1115@gmail.com
+SENDER_EMAIL=kiranparmar7796@gmail.com
 SENDER_PASSWORD=xxxx xxxx xxxx xxxx
 APPLICANT_NAME=Kiran Parmar
-APPLICANT_EMAIL=parmarkiran1115@gmail.com
+APPLICANT_EMAIL=kiranparmar7796@gmail.com
 APPLICANT_PHONE=7796331393
 JOB_POSITION=Frontend Developer Role
 YEARS_EXPERIENCE=4

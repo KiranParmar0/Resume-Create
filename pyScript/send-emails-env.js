@@ -21,7 +21,7 @@ const path = require("path");
  */
 const CONFIG = {
   // Gmail Configuration
-  senderEmail: process.env.SENDER_EMAIL || "parmarkiran1115@gmail.com",
+  senderEmail: process.env.SENDER_EMAIL || "kiranparmar7796@gmail.com",
   senderPassword: process.env.SENDER_PASSWORD || "Kp936300007@", // Use App Password for Gmail
 
   // File Names
@@ -33,7 +33,7 @@ const CONFIG = {
 
   // Applicant Information
   applicantName: process.env.APPLICANT_NAME || "Kiran Parmar",
-  applicantEmail: process.env.APPLICANT_EMAIL || "parmarkiran1115@gmail.com",
+  applicantEmail: process.env.APPLICANT_EMAIL || "kiranparmar7796@gmail.com",
   applicantPhone: process.env.APPLICANT_PHONE || "7796331393",
 
   // Job Details

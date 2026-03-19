@@ -12,14 +12,14 @@ const path = require("path");
  * Configuration object
  */
 const CONFIG = {
-  senderEmail: "parmarkiran1115@gmail.com",
+  senderEmail: "kiranparmar7796@gmail.com",
   senderPassword: "cchn jwxo ykut zihj", // Use App Password for Gmail
   excelFile: "Compan HR contact.xlsx",
   resumeFile: "Kiran_Parmar_Resume.pdf",
   emailDelay: 2000, // 2 seconds delay between parallel batches
   batchSize: 5, // Send 5 emails in parallel at a time
   applicantName: "Kiran Parmar",
-  applicantEmail: "parmarkiran1115@gmail.com",
+  applicantEmail: "kiranparmar7796@gmail.com",
   applicantPhone: "7796331393",
   jobPosition: "Frontend Developer / Angular Developer Role",
   yearsExperience: 4,

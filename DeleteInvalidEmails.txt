@@ -1,0 +1,41 @@
+Sub DeleteInvalidEmails()
+
+    Dim ws1 As Worksheet
+    Dim ws2 As Worksheet
+    Dim lastRow1 As Long
+    Dim lastRow2 As Long
+    Dim i As Long
+    Dim email As String
+    Dim dict As Object
+
+    Application.ScreenUpdating = False
+    Application.EnableEvents = False
+
+    Set ws1 = Worksheets("HR")
+    Set ws2 = Worksheets("Failed Emails")
+
+    Set dict = CreateObject("Scripting.Dictionary")
+
+    lastRow2 = ws2.Cells(ws2.Rows.Count, 1).End(xlUp).Row
+
+    For i = 2 To lastRow2
+        email = Trim(LCase(ws2.Cells(i, 1).Value))
+        If email <> "" Then dict(email) = True
+    Next i
+
+    lastRow1 = ws1.Cells(ws1.Rows.Count, 2).End(xlUp).Row
+
+    For i = lastRow1 To 2 Step -1
+        email = Trim(LCase(ws1.Cells(i, 2).Value))
+
+        If dict.exists(email) Then
+            ws1.Rows(i).EntireRow.Delete
+        End If
+    Next i
+
+    Application.ScreenUpdating = True
+    Application.EnableEvents = True
+
+    MsgBox "Invalid Emails Deleted Successfully"
+
+End Sub

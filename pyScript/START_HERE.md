@@ -64,7 +64,7 @@ Open `send-emails.js` in VS Code and find this (around line 18):
 
 ```javascript
 const CONFIG = {
-  senderEmail: "parmarkiran1115@gmail.com",
+  senderEmail: "kiranparmar7796@gmail.com",
   senderPassword: "your_app_password_here",  // ← REPLACE THIS
 ```
 
@@ -151,9 +151,9 @@ Edit **`send-emails.js`** and change these (around line 18-24):
 
 ```javascript
 const CONFIG = {
-  senderEmail: "parmarkiran1115@gmail.com",      // ← Your email
+  senderEmail: "kiranparmar7796@gmail.com",      // ← Your email
   applicantName: "Kiran Parmar",                 // ← Your name
-  applicantEmail: "parmarkiran1115@gmail.com",   // ← Your email
+  applicantEmail: "kiranparmar7796@gmail.com",   // ← Your email
   applicantPhone: "7796331393",                  // ← Your phone
   jobPosition: "Frontend Developer / Angular Developer Role", // ← Your position
   yearsExperience: 4,                            // ← Your experience
@@ -248,7 +248,7 @@ Thank you for your time and consideration.
 
 Best Regards,
 Kiran Parmar
-Email: parmarkiran1115@gmail.com
+Email: kiranparmar7796@gmail.com
 Phone: 7796331393
 ```
 
